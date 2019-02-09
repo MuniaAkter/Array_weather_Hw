@@ -17,7 +17,11 @@ public class Utility {
 			PageFactory.initElements(dr, this);
 		}
 		
-	
+
+		public void forcastToday1() {
+			//System.out.println("hi");
+			String forcast = cloud.getText();
+		}
 
 		public void forcastToday() {
 			//System.out.println("hi");
